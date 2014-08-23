@@ -48,8 +48,8 @@ var map = '';
 
 function initialize() {
     var mapOptions = {
-      zoom: 14,
-      center: new google.maps.LatLng(16.8461789,96.1309764)
+      zoom: 17,
+      center: new google.maps.LatLng(32.885639,-96.9704)
     };
     map = new google.maps.Map(document.getElementById('map'),  mapOptions);
 }
