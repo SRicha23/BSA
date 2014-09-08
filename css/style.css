@@ -381,7 +381,7 @@ h6 {
 .responsive .main-menu ul li a {
   line-height: 18px;
   padding: 10px 20px;
-font-weight: 600;
+  font-weight: 600;
 }
 .responsive .main-menu ul li a.current {
   background-image: none;
@@ -654,7 +654,7 @@ input.button {
   width: auto;
   background: url(../images/active-state.png) no-repeat;
   background-position: center bottom;
-  color: #26b864;
+  color: #1da4c6;
   font-size: 16px;
   text-transform: uppercase;
   font-weight: 700;
@@ -664,7 +664,7 @@ input.button {
 
 .site-footer {
   margin-top: 120px;
-  background-color: #26b864;
+  background-color: #1da4c6;
   color: white;
   padding: 25px 0;
 }
