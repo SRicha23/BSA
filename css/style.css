@@ -221,7 +221,7 @@ body {
 }
 
 a {
-  color: #26b864;
+  color: #1da4c6;
   text-decoration: none !important;
   -webkit-transition: all 200ms ease-in;
   -moz-transition: all 200ms ease-in;
@@ -388,7 +388,7 @@ h6 {
 }
 .responsive .main-menu ul li a.current {
   background-image: none;
-  color: #26b864;
+  color: #1da4c6;
   border-bottom: 0;
 }
 
@@ -663,6 +663,10 @@ input.button {
   font-weight: 700;
   padding-bottom: 27px;
   border: 0;
+  
+}
+input.button:focus{
+    color: #285e8e;
 }
 
 .site-footer {
