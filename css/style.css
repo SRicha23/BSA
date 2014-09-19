@@ -100,15 +100,7 @@ textarea {
 /* ==========================================================================
     Forms
    ========================================================================== */
-/*form input[type="text"],
-form input[type="email"],
-form input[type="number"],
-form input[type="password"] {
-  background: #fff;
-  border: 1px solid #fff;
-  padding: 7px 10px;
-  width: 60%;
-}*/
+
 form input[type="text"]:focus,
 form input[type="email"]:focus,
 form input[type="number"]:focus,
@@ -701,7 +693,7 @@ ul.social li a {
 /*------------------------------------------------------
 	RESPONSIVE STYLES 
 --------------------------------------------------------*/
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .main-menu, .bx-thumbnail-wrapper {
     display: none;
   }
