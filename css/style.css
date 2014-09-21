@@ -390,6 +390,11 @@ h6 {
 .site-slider {
   padding-top: 102px;
 }
+.bxslider img
+{
+    height: 580px;
+}
+
 .site-slider ul li {
   float: left;
   margin: 0;
@@ -694,7 +699,7 @@ ul.social li a {
 	RESPONSIVE STYLES 
 --------------------------------------------------------*/
 @media (max-width: 1024px) {
-  .main-menu, .bx-thumbnail-wrapper {
+  .main-menu,.bx-thumbnail-wrapper{
     display: none;
   }
 
@@ -707,11 +712,11 @@ ul.social li a {
   }
 
   .slider-caption {
-    bottom: 80px;
+    display: none;
   }
 
   .bx-controls-direction {
-    bottom: 30px;
+    bottom: 50px;
   }
 
   .section-title:after {
@@ -745,6 +750,13 @@ ul.social li a {
   }
 }
 @media (max-width: 767px) {
+    .bx-thumbnail-wrapper{
+        display: none;
+    }
+    .bxslider img
+{
+    height: 320px;
+}
   .section-title {
     font-size: 24px;
   }
