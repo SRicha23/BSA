@@ -22,7 +22,10 @@
         <link rel="stylesheet" href="css/style.css">
 
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
-
+        <script src="js/formvalid.js"></script>
+        <style>
+.errorMessage {color:red; display:none;}
+</style>
     </head>
     <body>
         <div id="home">
@@ -231,21 +234,30 @@
                     </div> <!-- /.col-md-6 -->
 
                     <div class="col-md-6 col-sm-6">
-                        <form action="mailto:richa2390@gmail.com" method="post">
-                            <div class="row contact-form">
-
-                                <fieldset class="col-md-6 col-sm-6">
+                        <div class="row contact-form">
+                       
+                           
+ <form name="contact_us" action="mail" onsubmit="return formValidation();" method="post">
+      
+          
+                                <fieldset class="col-md-12 col-sm-6">
                                     <input id="name" type="text" name="name" placeholder="Name">
-                                </fieldset>
-                                <fieldset class="col-md-6 col-sm-6">
+<p id="p1"></p>                                </fieldset>
+                                
+                                <fieldset class="col-md-12 col-sm-6">
                                     <input type="email" name="email" id="email" placeholder="Email">
+                                    <p id="p2"> </p>
                                 </fieldset>
+                                 
                                 <fieldset class="col-md-12">
                                     <input type="text" name="subject" id="subject" placeholder="Subject">
+                                    <p id="p3"> </p>
                                 </fieldset>
+                                    
                                 <fieldset class="col-md-12">
                                     <textarea name="comments" id="comments" placeholder="Message"></textarea>
-                                </fieldset>
+                                    <p id="p4"> </p>
+                            </fieldset>
                                 <fieldset class="col-md-12">
                                     <input type="submit" name="send" value="Send Message" id="submit" class="button">
                                 </fieldset>
@@ -253,6 +265,7 @@
                             </div>
                             <!-- /.contact-form -->
                         </form>
+                                
                     </div>
                 </div> <!-- /.row -->
             </div> <!-- /.container -->
